@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="FFit - O app perfeito para acompanhar sua vida fitness. Monitore sua saúde, exercícios e compartilhe conquistas.">
+  <title>FFit - App Fitness</title>
+
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="tilt.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- SECTION 01 - HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="logo" aria-label="FFit - App Fitness" role="img">
+        <span class="logo-letter">M</span>
+      </a>
+      <a href="#download" class="btn-download">Baixar o App</a>
+    </div>
+  </header>
+
+  <!-- SECTION 02 - HERO -->
+  <section class="hero">
+    <div class="hero-container">
+      <!-- Esquerda: Headline sutil -->
+      <div class="hero-left">
+        <h1 class="hero-headline">O app perfeito para acompanhar sua vida fitness.</h1>
+      </div>
+
+      <!-- Centro: Imagem em destaque com efeito tilt -->
+      <div class="hero-center" id="cardContainer">
+        <div class="hero-img-wrapper card" id="tiltCard">
+          <img src="img/print_1.png" alt="Demonstração do aplicativo FFit" class="hero-image">
+        </div>
+      </div>
+
+      <!-- Direita: Pontos-chave -->
+      <div class="hero-right">
+        <ul class="hero-feature-list">
+          <li class="feature-item">
+            <span class="feature-icon">❤️</span>
+            <span class="feature-label">Saúde</span>
+          </li>
+          <li class="feature-item">
+            <span class="feature-icon">🏃</span>
+            <span class="feature-label">Exercício</span>
+          </li>
+          <li class="feature-item">
+            <span class="feature-icon">🤝</span>
+            <span class="feature-label">Amigos</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 03 - FUNCIONALIDADES -->
+  <section class="features" id="funcionalidades">
+    <div class="features-container">
+
+      <!-- Item 1: Print na esquerda / Texto na direita -->
+      <div class="feature-row">
+        <div class="feature-image-wrapper">
+          <img src="img/print_2.png" alt="Tela de contagem de calorias" class="feature-image">
+        </div>
+        <div class="feature-text-block">
+          <span class="feature-tag">Nutrição & Saúde</span>
+          <h2 class="feature-title">Controle calórico inteligente</h2>
+          <p class="feature-description">
+            Monitore suas refeições e acompanhe a ingestão diária de calorias de forma simples, rápida e precisa.
+          </p>
+          <p class="feature-description">
+            Visualize a divisão detalhada de macronutrientes, compreendendo o consumo ideal de proteínas, carboidratos e gorduras para sua meta.
+          </p>
+          <p class="feature-description">
+            Construa hábitos alimentares consistentes com relatórios automáticos que ajudam você a manter o equilíbrio sem abrir mão do que gosta.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item 2: Texto na esquerda / Print na direita -->
+      <div class="feature-row feature-row-reverse">
+        <div class="feature-image-wrapper">
+          <img src="img/print_3.png" alt="Tela de treinos e exercícios específicos" class="feature-image">
+        </div>
+        <div class="feature-text-block">
+          <span class="feature-tag">Treinos & Performance</span>
+          <h2 class="feature-title">Exercícios específicos e personalizados</h2>
+          <p class="feature-description">
+            Acompanhe qualquer modalidade com precisão, desde sessões de musculação até corridas, caminhadas e pedaladas.
+          </p>
+          <p class="feature-description">
+            Analise dados em tempo real sobre seu ritmo, gasto de energia, duração e frequência cardíaca durante cada série ou percurso.
+          </p>
+          <p class="feature-description">
+            Receba planos de treino adaptados ao seu nível e acompanhe sua evolução física contínua para superar seus limites dia após dia.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item 3: Print na esquerda / Texto na direita -->
+      <div class="feature-row">
+        <div class="feature-image-wrapper">
+          <img src="img/print_4.png" alt="Tela de compartilhamento com amigos" class="feature-image">
+        </div>
+        <div class="feature-text-block">
+          <span class="feature-tag">Comunidade & Desafios</span>
+          <h2 class="feature-title">Compartilhe conquistas com amigos</h2>
+          <p class="feature-description">
+            Transforme sua rotina de atividades em uma experiência social, motivadora e muito mais divertida com seus amigos.
+          </p>
+          <p class="feature-description">
+            Participe de desafios e rankings saudáveis em grupo, comemorando vitórias conjuntas e mantendo o foco nas metas estabelecidas.
+          </p>
+          <p class="feature-description">
+            Publique registros visuais dos seus treinos no feed e inspire sua rede a se movimentar com você todos os dias.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 04 - CTA (Call To Action) -->
+  <section class="cta-section" id="download">
+    <div class="cta-container">
+      <h2 class="cta-title">Comece sua transformação hoje mesmo</h2>
+      <a href="#download" class="btn-download btn-download-large">Baixar o App</a>
+      <p class="cta-highlight">Totalmente gratuito</p>
+    </div>
+  </section>
+
+  <!-- SECTION 05 - FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo no canto inferior esquerdo -->
+      <div class="footer-left">
+        <a href="#" class="logo" aria-label="FFit - App Fitness" role="img">
+          <span class="logo-letter">M</span>
+        </a>
+      </div>
+
+      <!-- Links no canto inferior direito -->
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#termos">Termos de uso</a></li>
+          <li><a href="#privacidade">Política de privacidade</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Direitos Reservados -->
+    <div class="footer-bottom">
+      <p>Todos os direitos reservados &copy; 2026. M Fit App</p>
+    </div>
+  </footer>
+  
+</body>
+
+</html>
