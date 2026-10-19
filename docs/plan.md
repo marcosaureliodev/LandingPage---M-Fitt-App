@@ -71,4 +71,4 @@ Links no canto inferior direito:
 - Termos de uso
 - Política de privacidade
 
-Todos os direitos reservados © 2026. FFit App
+Todos os direitos reservados © 2026. M Fit App
